@@ -1,0 +1,49 @@
+{
+  "name": "babel-preset-latest-minimal",
+  "version": "1.0.0",
+  "description": "Babel preset including only needed ES2015+ plugins",
+  "keywords": [
+    "babel",
+    "es2015",
+    "es2016",
+    "es2017",
+    "feature detection",
+    "latest",
+    "plugin",
+    "preset"
+  ],
+  "license": "WTFPL",
+  "author": "Gabriel Montes <gabriel@utoctadel.com.ar>",
+  "main": "index.js",
+  "repository": "gabmontes/babel-preset-latest-minimal",
+  "dependencies": {
+    "babel-plugin-check-es2015-constants": "^6.8.0",
+    "babel-plugin-syntax-trailing-function-commas": "^6.13.0",
+    "babel-plugin-transform-async-to-generator": "^6.8.0",
+    "babel-plugin-transform-es2015-arrow-functions": "^6.8.0",
+    "babel-plugin-transform-es2015-block-scoped-functions": "^6.8.0",
+    "babel-plugin-transform-es2015-block-scoping": "^6.14.0",
+    "babel-plugin-transform-es2015-classes": "^6.14.0",
+    "babel-plugin-transform-es2015-computed-properties": "^6.8.0",
+    "babel-plugin-transform-es2015-destructuring": "^6.9.0",
+    "babel-plugin-transform-es2015-duplicate-keys": "^6.8.0",
+    "babel-plugin-transform-es2015-for-of": "^6.8.0",
+    "babel-plugin-transform-es2015-function-name": "^6.9.0",
+    "babel-plugin-transform-es2015-literals": "^6.8.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.14.0",
+    "babel-plugin-transform-es2015-object-super": "^6.8.0",
+    "babel-plugin-transform-es2015-parameters": "^6.11.4",
+    "babel-plugin-transform-es2015-shorthand-properties": "^6.8.0",
+    "babel-plugin-transform-es2015-spread": "^6.8.0",
+    "babel-plugin-transform-es2015-sticky-regex": "^6.8.0",
+    "babel-plugin-transform-es2015-template-literals": "^6.8.0",
+    "babel-plugin-transform-es2015-typeof-symbol": "^6.8.0",
+    "babel-plugin-transform-es2015-unicode-regex": "^6.11.0",
+    "babel-plugin-transform-exponentiation-operator": "^6.8.0",
+    "babel-plugin-transform-regenerator": "^6.14.0",
+    "es-feature-detect": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.4.0"
+  }
+}
