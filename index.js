@@ -1,15 +1,16 @@
 'use strict'
 
 var options = {
-  spec: false,
-  loose: false
+  async: false,
+  asyncGenerators: false,
+  loose: false,
+  spec: false
 }
 
-var requiredPlugins = []
-  .concat(require('./presets/es2015')(options))
-  .concat(require('./presets/es2016'))
-  .concat(require('./presets/es2017'))
+var requiredPlugins = require('./lib')
 
 module.exports = {
-  plugins: requiredPlugins.filter(Boolean)
+  plugins: requiredPlugins.map(function (name) {
+    return [require('babel-plugin-' + name), options]
+  })
 }

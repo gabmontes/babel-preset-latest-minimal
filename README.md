@@ -18,6 +18,28 @@ Add preset to your `.babelrc` file:
 }
 ```
 
+## Command-line
+
+For convenience, the module provides a command line utility to list the current plugins needed according to the version of node present in the system.
+
+```bash
+$ node --version
+v5.12.0
+$ babel-node-list-required
+[ 'transform-es2015-object-super',
+  'transform-es2015-shorthand-properties',
+  'transform-es2015-duplicate-keys',
+  'transform-es2015-sticky-regex',
+  'transform-es2015-unicode-regex',
+  'transform-es2015-spread',
+  'transform-es2015-parameters',
+  'transform-es2015-destructuring',
+  'transform-es2015-modules-commonjs',
+  'transform-exponentiation-operator',
+  'syntax-trailing-function-commas',
+  'transform-async-to-generator' ]
+```
+
 ## Motivation
 
 When using the fantastic [Babel](http://babeljs.io/) transpiler in building web applications with the latest and greatest ECMAScript features, it is advisable and safer to include all plugins from [`babel-preset-latest`](https://github.com/babel/babel/tree/master/packages/babel-preset-latest) due to the fact that the runtime environment (the browser) is unknown at build-time. Anyway, when developing a Node.JS or an Electron application, the environment is controlled and Babel plugins could be hand-picked to transpile only the features not supported.

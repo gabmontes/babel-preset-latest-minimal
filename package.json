@@ -15,6 +15,9 @@
   "license": "WTFPL",
   "author": "Gabriel Montes <gabriel@utoctadel.com.ar>",
   "main": "index.js",
+  "bin": {
+    "babel-node-list-required": "bin/list-required.js"
+  },
   "repository": "gabmontes/babel-preset-latest-minimal",
   "dependencies": {
     "babel-plugin-check-es2015-constants": "^6.8.0",
