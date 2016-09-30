@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-latest-minimal",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Babel preset including only needed ES2015+ plugins",
   "keywords": [
     "babel",
