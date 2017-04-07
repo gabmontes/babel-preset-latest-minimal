@@ -38,7 +38,7 @@
     "babel-plugin-transform-es2015-parameters": "^6.11.4",
     "babel-plugin-transform-es2015-shorthand-properties": "^6.8.0",
     "babel-plugin-transform-es2015-spread": "^6.8.0",
-    "babel-plugin-transform-es2015-sticky-regex": "^6.8.0",
+    "babel-plugin-transform-es2015-sticky-regex": "^6.24.1",
     "babel-plugin-transform-es2015-template-literals": "^6.8.0",
     "babel-plugin-transform-es2015-typeof-symbol": "^6.8.0",
     "babel-plugin-transform-es2015-unicode-regex": "^6.11.0",
