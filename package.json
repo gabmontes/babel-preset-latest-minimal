@@ -42,7 +42,7 @@
     "babel-plugin-transform-es2015-template-literals": "^6.8.0",
     "babel-plugin-transform-es2015-typeof-symbol": "^6.8.0",
     "babel-plugin-transform-es2015-unicode-regex": "^6.11.0",
-    "babel-plugin-transform-exponentiation-operator": "^6.8.0",
+    "babel-plugin-transform-exponentiation-operator": "^6.24.1",
     "babel-plugin-transform-regenerator": "^6.14.0",
     "es-feature-detect": "^1.0.0"
   },
