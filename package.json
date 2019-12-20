@@ -47,6 +47,6 @@
     "es-feature-detect": "^1.0.0"
   },
   "devDependencies": {
-    "eslint": "^4.1.0"
+    "eslint": "^6.8.0"
   }
 }
